@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "Seeeduino")(type "KiCad")(uri "${KIPRJMOD}/Lib/Seeeduino XIAO KICAD/Seeeduino XIAO.kicad_sym")(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/Lib/kbd-master/kicad-symbols/kbd.kicad_sym")(options "")(descr ""))
+  (lib (name "KB_SW")(type "KiCad")(uri "${KIPRJMOD}/Lib/Switch/mx-noled.kicad_sym")(options "")(descr ""))
+  (lib (name "IO_Expand")(type "KiCad")(uri "${KIPRJMOD}/Lib/IO expander/MCP23017.kicad_sym")(options "")(descr ""))
+)

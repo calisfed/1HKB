@@ -1,0 +1,238 @@
+
+(session Keyboard.ses
+  (base_design Keyboard.dsn)
+  (placement
+    (resolution um 10)
+    (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (place J4 3824000 -1812000 front 0)
+      (place J2 5312000 -898000 front 270)
+    )
+    (component Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical
+      (place J5 3932000 -1786000 front 0)
+    )
+    (component Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal
+      (place J3 5142000 -1349000 back 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (place J1 5212000 -772750 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap
+      (place K_30 4126000 -1341600 front 0)
+      (place K_16 4126000 -960600 front 0)
+      (place K_37 4126000 -1532100 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::1
+      (place K_11 4505400 -727920 front 0)
+      (place K_25 4505400 -1108920 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::2
+      (place K_18 4505400 -918420 front 0)
+      (place K_39 4505400 -1489920 front 0)
+      (place K_32 4505400 -1299420 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::3
+      (place K_9 4126000 -770100 front 0)
+      (place K_23 4126000 -1151100 front 0)
+    )
+    (component Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB
+      (place K_8 3914140 -789940 front 0)
+      (place K_22 3914140 -1170940 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::4
+      (place K_26 4697480 -1128920 front 0)
+      (place K_12 4697480 -747920 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::5
+      (place K_34 4888000 -1341600 front 0)
+      (place K_41 4888000 -1532100 front 0)
+      (place K_20 4888000 -960600 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::6
+      (place K_17 4316480 -938420 front 0)
+      (place K_38 4316480 -1509920 front 0)
+      (place K_31 4316480 -1319420 front 0)
+    )
+    (component IO_Expand:mcp23017
+      (place U1 4380000 -1840000 back 90)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::7
+      (place K_14 5080000 -789940 front 0)
+      (place K_28 5080000 -1170940 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::8
+      (place K_24 4316480 -1128920 front 0)
+      (place K_10 4316480 -747920 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::9
+      (place K_44 5373950 -2138920 front 315)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::10
+      (place K_4 4505400 -501860 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::11
+      (place K_5 4697480 -521860 front 0)
+    )
+    (component "Seeeduino:Seeeduino XIAO-Holes"
+      (place U2 5197856 -737183 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::12
+      (place K_3 4316480 -521860 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::13
+      (place K_45 5510245 -2003114 front 315)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::14
+      (place K_33 4697480 -1319420 front 0)
+      (place K_19 4697480 -938420 front 0)
+      (place K_40 4697480 -1509920 front 0)
+    )
+    (component Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB::1
+      (place K_15 3914140 -980440 front 0)
+      (place K_29 3914140 -1361440 front 0)
+      (place K_36 3914140 -1551940 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::15
+      (place K_21 5080000 -980440 front 0)
+      (place K_35 5080000 -1361440 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::16
+      (place K_1 3919220 -563880 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::17
+      (place K_47 5510245 -1731074 front 315)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::18
+      (place K_13 4888000 -770100 front 0)
+      (place K_27 4888000 -1151100 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::19
+      (place K_2 4126000 -544040 front 0)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::20
+      (place K_46 5646245 -1867364 front 315)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::21
+      (place K_6 4888000 -544040 front 0)
+    )
+    (component Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB
+      (place K_42 5169912 -1799659 front 315)
+    )
+    (component Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB::1
+      (place K_43 5305382 -1935289 front 315)
+    )
+    (component KB_SW:SW_Cherry_MX_1.00u_PCB_w_cap::22
+      (place K_7 5080000 -563880 front 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+      (place D25 4520640 -1243540 back 0)
+      (place D11 4520640 -862540 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::1"
+      (place D34 4900700 -1473680 back 0)
+      (place D47 5539377 -1785614 back 45)
+      (place D20 4900700 -1092680 back 0)
+      (place D41 4900700 -1664180 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::2"
+      (place D9 4143780 -904720 back 0)
+      (place D23 4143780 -1285720 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::3"
+      (place D45 5545686 -2049923 back 45)
+      (place D39 4518100 -1622000 back 0)
+      (place D32 4518100 -1431500 back 0)
+      (place D18 4518100 -1050500 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::4"
+      (place D5 4710180 -656480 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::5"
+      (place D36 3924300 -1686560 back 0)
+      (place D42 5201932 -1851459 back 45)
+      (place D29 3924300 -1496060 back 0)
+      (place D15 3924300 -1115060 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::6"
+      (place D4 4518100 -636480 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::7"
+      (place D46 5680936 -1915173 back 45)
+      (place D19 4710180 -1070500 back 0)
+      (place D40 4710180 -1642000 back 0)
+      (place D33 4710180 -1451500 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::8"
+      (place D21 5092700 -1115060 back 0)
+      (place D35 5092700 -1496060 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::9"
+      (place D10 4331720 -880000 back 0)
+      (place D24 4331720 -1261000 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::10"
+      (place D16 4136160 -1095220 back 0)
+      (place D37 4136160 -1666720 back 0)
+      (place D43 5339092 -1983539 back 45)
+      (place D30 4136160 -1476220 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::11"
+      (place D22 3924300 -1305560 back 0)
+      (place D8 3924300 -924560 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::12"
+      (place D28 5095240 -1305560 back 0)
+      (place D14 5095240 -924560 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::13"
+      (place D27 4898160 -1285720 back 0)
+      (place D13 4898160 -904720 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::14"
+      (place D17 4324100 -1070500 back 0)
+      (place D31 4324100 -1451500 back 0)
+      (place D38 4324100 -1642000 back 0)
+      (place D44 5394941 -2201059 back 45)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::15"
+      (place D26 4712720 -1263540 back 0)
+      (place D12 4712720 -882540 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::16"
+      (place D7 5092700 -698500 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::17"
+      (place D3 4321560 -656480 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::18"
+      (place D1 3929380 -698500 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::19"
+      (place D6 4903240 -678660 back 0)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::20"
+      (place D2 4128540 -678660 back 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(6.0.2)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+    )
+  )
+)

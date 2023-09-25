@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "Seeeduino")(type "KiCad")(uri "${KIPRJMOD}/Lib/Seeeduino XIAO KICAD")(options "")(descr ""))
+  (lib (name "KB_SW")(type "KiCad")(uri "${KIPRJMOD}/Lib/Switch")(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/Lib/kbd-master/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "IO_Expand")(type "KiCad")(uri "${KIPRJMOD}/Lib/IO expander")(options "")(descr ""))
+)
